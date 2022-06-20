@@ -3,6 +3,11 @@
 ### Project Overview 
 This project focused on refactoring previous VBA subroutines to optimize the performance of analyzing a spreadsheet of stock ticker outcomes for the years 2017 and 2018. Array structures were utilized in the refactored code to replace the additional steps required of the nested loop structure from the original algorithm. Output of ticker return was formatted to provide quick visual analysis of stocks with positive and negative annual returns.
 
+### Technologies
+* Excel
+* VBA
+
+
 ### Results
 The images illustrate the timed results of code optimization. It is easy to conclude that the usage of array structures, and single loop processing of these, performs more efficiently than the nested loop processing algorithm. It is also worth noting that the times for both years in the refactored algorithm are the same, suggesting a highly scalable linear relationship, while the difference in times for the more exponential relationship of the original code suggest this algorithm is not likely to scale as well for larger data sizes.
 ![2017 Original Algorithm](https://github.com/manBow1119/stock-analysis/blob/main/AllStocksAnalysis_Macro_2017.png)
